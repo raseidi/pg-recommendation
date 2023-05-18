@@ -1,0 +1,9 @@
+gmm: adbis gmm
+gmm_int: gmm interpolating train and test sets
+similarity_mb=orig_k=K_f=5: the K most similar datasets based on the 5 most relevant features extracted from RF importances, regarding the original metabase
+similarity_mb=int_k=K_f=5: the K most similar datasets based on the 5 most relevant features extracted from RF importances, regarding the interpolated metabase
+ifms*: interpolation from the most (weighted) similar, i.e. meta-targets from the most similar dataset are used as "predictions". Obs: k=30 only; no training/testing phase, interpolation curves only
+clustering: clustering raw meta-features, eps between [4, 6]
+clustering_inter: clustering raw meta-features, eps between [4, 6], k_searchin=30 only
+
+
