@@ -9,6 +9,9 @@ This is the implementation of the [A meta-learning configuration framework for g
 - [ANNMF](https://github.com/nmslib/nmslib) is a repository containing our implementation for the proposed meta-features
 - this repository is composed of individual scripts/notebooks for building the final meta-database, running the meta-learning experiments, and evaluating the recommendation effectiveness
 
+## Supplementary material
+
+You can download all the data [here](https://drive.google.com/drive/folders/1By3eLoX582XLig6cP-7WcjeSm8VTyXvW?usp=sharing). Copy and paste the folder into this directory path.
 
 ## Citation
 ```
