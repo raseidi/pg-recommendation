@@ -1,4 +1,4 @@
-# Single-target v2 (4 meta-targets)
+# Single-target v2 (4 meta-targets - Information Systems)
 # GMM, TMM-GS, and TMM-S
 import os
 # os.chdir('../../')

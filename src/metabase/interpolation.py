@@ -78,7 +78,7 @@ for base, g, k_param in prods:
     mfs = interpolate.drop(not_mf, axis=1)
     mfs.drop_duplicates(inplace=True)
     if len(mfs) != 1:
-        print(f'[-] Base="{base}" g={g} k={k_param} deu ruim. Len(mf)={len(mfs)}')
+        print(f'[-] Base="{base}" g={g} k={k_param} failed. Len(mf)={len(mfs)}')
         continue
     
     mfs.set_index('base', inplace=True)
@@ -95,7 +95,7 @@ for base, g, k_param in prods:
             coefs = LinearNDInterpolator(x, y)
             interpolations = coefs(p)
         except:
-            print(f'[-] Base="{base}" g={g} k={k_param} deu ruim na interpolação.')
+            print(f'[-] Base="{base}" g={g} k={k_param} interpolation failed.')
             continue
 
         if first:

@@ -7,7 +7,6 @@ import utils
 from itertools import product
 
 plt.style.use('ggplot')
-os.chdir('/home/seidi/Repositories/mestrado_final/')
 
 pd.set_option('display.max_columns', 100)
 pd.set_option('display.max_rows', 200)

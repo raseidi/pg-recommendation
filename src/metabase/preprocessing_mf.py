@@ -1,6 +1,6 @@
 import pandas as pd
 
-mf = pd.read_csv('/home/seidi/Repositories/pgac_source/data/metafeatures/new_metafeatures.csv', index_col=0)
+mf = pd.read_csv('data/metafeatures/new_metafeatures.csv', index_col=0)
 mf.dropna(axis=1, inplace=True)
 mf.drop('elapsed_time(secs)', axis=1, inplace=True)
 # filtering meta-features (no subsets)

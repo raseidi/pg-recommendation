@@ -7,7 +7,6 @@ import utils
 from itertools import product
 
 plt.style.use('ggplot')
-os.chdir('/home/seidi/Repositories/mestrado_final/')
 
 pd.set_option('display.max_columns', 100)
 pd.set_option('display.max_rows', 200)
@@ -184,8 +183,7 @@ for k_searching, opt, req_recall, rec_type in prods:
 
     plt.subplots_adjust(hspace=0.3)
     req_recall = req_recall*100
-    plt.savefig(f'/home/seidi/Repositories/seidi_pgac_journal/figures/results_section/results/new_recommendations/major_reviews/{rec_type}_{opt}_{req_recall:.0f}_k={k_searching:.0f}.pdf', bbox_inches = 'tight', pad_inches = 0, dpi=100)
-    # plt.savefig(f'/home/seidi/Desktop/a.png', bbox_inches = 'tight', pad_inches = 0, dpi=100)
+    plt.savefig(f'figures/results_section/results/new_recommendations/major_reviews/{rec_type}_{opt}_{req_recall:.0f}_k={k_searching:.0f}.pdf', bbox_inches = 'tight', pad_inches = 0, dpi=100)
     fig.clear()
     plt.close(fig)
     del final_recommendations
