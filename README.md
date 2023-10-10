@@ -6,7 +6,7 @@ This is the implementation of the [A meta-learning configuration framework for g
 ## Overview
 
 - [NMSLIB](https://github.com/nmslib/nmslib) was employed for indexing and querying the graphs
-- [ANNMF](https://github.com/nmslib/nmslib) is a repository containing our implementation for the proposed meta-features
+- [ANNMF](https://github.com/raseidi/annmf) is a repository containing our implementation for the proposed meta-features
 - this repository is composed of individual scripts/notebooks for building the final meta-database, running the meta-learning experiments, and evaluating the recommendation effectiveness
 
 ## Supplementary material
